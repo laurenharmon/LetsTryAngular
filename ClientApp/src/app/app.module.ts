@@ -5,6 +5,10 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { FooterComponent } from './footer/footer.component';
+import { PictureUploadComponent } from './picture-upload/picture-upload.component';
+import { FriendsComponent } from './friends/friends.component';
+import { MarketplaceComponent } from './marketplace/marketplace.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
@@ -13,13 +17,18 @@ import { ApiAuthorizationModule } from 'src/api-authorization/api-authorization.
 import { AuthorizeGuard } from 'src/api-authorization/authorize.guard';
 import { AuthorizeInterceptor } from 'src/api-authorization/authorize.interceptor';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     NavMenuComponent,
     HomeComponent,
     CounterComponent,
-    FetchDataComponent
+    FetchDataComponent,
+    PictureUploadComponent,
+    FooterComponent,
+    FriendsComponent,
+    MarketplaceComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -30,6 +39,9 @@ import { AuthorizeInterceptor } from 'src/api-authorization/authorize.intercepto
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'counter', component: CounterComponent },
       { path: 'fetch-data', component: FetchDataComponent, canActivate: [AuthorizeGuard] },
+      { path: 'picture-upload', component: PictureUploadComponent },
+      { path: 'friends', component: FriendsComponent },
+      { path: 'marketplace', component: MarketplaceComponent }
     ])
   ],
   providers: [
