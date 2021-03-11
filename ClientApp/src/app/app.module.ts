@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { PurchaseComponent } from './purchase/purchase.component';
+import { ProfileComponent } from './profile/profile.component';
 import { ApiAuthorizationModule } from 'src/api-authorization/api-authorization.module';
 import { AuthorizeGuard } from 'src/api-authorization/authorize.guard';
 import { AuthorizeInterceptor } from 'src/api-authorization/authorize.interceptor';
@@ -30,7 +31,8 @@ import { AuthorizeInterceptor } from 'src/api-authorization/authorize.intercepto
     FooterComponent,
     FriendsComponent,
     MarketplaceComponent,
-    PurchaseComponent
+    PurchaseComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -44,7 +46,8 @@ import { AuthorizeInterceptor } from 'src/api-authorization/authorize.intercepto
       { path: 'picture-upload', component: PictureUploadComponent },
       { path: 'friends', component: FriendsComponent },
       { path: 'marketplace', component: MarketplaceComponent },
-      { path: 'purchase', component: PurchaseComponent }
+      { path: 'purchase', component: PurchaseComponent },
+      { path: 'profile', component: ProfileComponent}
     ])
   ],
   providers: [
