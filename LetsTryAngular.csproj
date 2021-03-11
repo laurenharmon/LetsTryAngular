@@ -43,6 +43,8 @@
     <TypeScriptCompile Remove="ClientApp\src\app\marketplace\marketplace.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\picture-upload\picture-upload.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\picture-upload\picture-upload.component.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\purchase\purchase.component.spec.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\purchase\purchase.component.ts" />
   </ItemGroup>
 
   <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">

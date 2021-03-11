@@ -3,7 +3,10 @@
     class="navbar navbar-expand-sm navbar-toggleable-sm box-shadow mb-3"
   >
     <div class="container">
-      <a id="color-change" class="navbar-brand" [routerLink]="['/']">LetsTryAngular</a>
+      <a class="navbar-item">
+        <img src="assets/img/Logo.png" />
+      </a>
+      <a class="navbar-brand text-dark" [routerLink]="['/']">Let's Try</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -23,22 +26,25 @@
           <li class="nav-item"
               [routerLinkActive]="['link-active']"
               [routerLinkActiveOptions]="{ exact: true }">
-            <a class="nav-link text-light" [routerLink]="['/']">Home</a>
+            <a class="nav-link text-dark" [routerLink]="['/']">Home</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/counter']">Counter</a>
+            <a class="nav-link text-dark" [routerLink]="['/counter']">Counter</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/fetch-data']">Fetch data</a>
+            <a class="nav-link text-dark" [routerLink]="['/fetch-data']">Fetch data</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/picture-upload']">Upload Photo</a>
+            <a class="nav-link text-dark" [routerLink]="['/picture-upload']">Upload Photo</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/friends']">Friends</a>
+            <a class="nav-link text-dark" [routerLink]="['/friends']">Friends</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-light" [routerLink]="['/marketplace']">Marketplace</a>
+            <a class="nav-link text-dark" [routerLink]="['/marketplace']">Marketplace</a>
+          </li>
+          <li class="nav-item" [routerLinkActive]="['link-active']">
+            <a class="nav-link text-dark" [routerLink]="['/purchase']">Purchase</a>
           </li>
         </ul>
         <app-login-menu></app-login-menu>

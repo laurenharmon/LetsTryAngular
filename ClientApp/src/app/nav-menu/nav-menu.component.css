@@ -5,7 +5,7 @@ a.navbar-brand {
 }
 
 html {
-  font-size: 14px;
+  font-size: 16px;
 }
 @media (min-width: 768px) {
   html {
@@ -18,9 +18,5 @@ html {
 }
 
 #header {
-  background: #97C1A9;
-}
-
-#color-change {
-    color: whitesmoke;
+  background: #A2E1DB;
 }
