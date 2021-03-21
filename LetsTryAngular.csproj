@@ -39,6 +39,8 @@
     <TypeScriptCompile Remove="ClientApp\src\app\footer\footer.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\friends\friends.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\friends\friends.component.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\marketplace\market-item\market-item.component.spec.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\marketplace\market-item\market-item.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\marketplace\marketplace.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\marketplace\marketplace.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\picture-upload\picture-upload.component.spec.ts" />

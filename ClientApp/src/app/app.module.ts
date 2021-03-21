@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { PictureUploadComponent } from './picture-upload/picture-upload.component';
 import { FriendsComponent } from './friends/friends.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { MarketItemComponent } from './marketplace/market-item/market-item.component';
 import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 import { CounterComponent } from './counter/counter.component';
@@ -32,7 +33,8 @@ import { AuthorizeInterceptor } from 'src/api-authorization/authorize.intercepto
     FriendsComponent,
     MarketplaceComponent,
     PurchaseComponent,
-    ProfileComponent
+    ProfileComponent,
+    MarketItemComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
