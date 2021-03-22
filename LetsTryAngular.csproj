@@ -47,6 +47,8 @@
     <TypeScriptCompile Remove="ClientApp\src\app\picture-upload\picture-upload.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\profile\profile.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\profile\profile.component.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\purchase\purchase-item\purchase-item.component.spec.ts" />
+    <TypeScriptCompile Remove="ClientApp\src\app\purchase\purchase-item\purchase-item.component.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\purchase\purchase.component.spec.ts" />
     <TypeScriptCompile Remove="ClientApp\src\app\purchase\purchase.component.ts" />
   </ItemGroup>
