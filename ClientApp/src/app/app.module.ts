@@ -19,7 +19,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { ApiAuthorizationModule } from 'src/api-authorization/api-authorization.module';
 import { AuthorizeGuard } from 'src/api-authorization/authorize.guard';
 import { AuthorizeInterceptor } from 'src/api-authorization/authorize.interceptor';
-import { PurchaseItemComponent } from './purchase/purchase-item/purchase-item.component';
+import { PurchaseItemComponent } from './purchase/purchase-item/purchase-item.component
 
 
 
