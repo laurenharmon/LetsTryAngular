@@ -1,8 +1,15 @@
-﻿import { Injectable } from '@angular/core';
+import { Injectable } from '@angular/core';
+import { MarketItem } from '../Models/MarketItem';
 
-@Injectable()
-export class MyService {
-    constructor() {
+@Injectable({
+  providedIn: 'root'
+})
+export class ProductService {
 
+  products = [
+    {
     }
+  ]
+
+  constructor() { }
 }
